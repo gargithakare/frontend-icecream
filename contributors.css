@@ -1,0 +1,68 @@
+th,
+td {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h1 {
+  font-family: 'Allura', cursive;
+  color: #cdf0ea;
+  font-size: 75px;
+  margin-top: 20px;
+}
+
+body {
+  /* background-image: url('bgb.jpg'); */
+  background-color: #beaee2;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.profile {
+  width: 250px;
+  height: 305px;
+  border-radius: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.names {
+  font-family: 'Allura', cursive;
+  font-size: 40px;
+  color: #f7dbf0;
+}
+
+.para {
+  font-family: 'Allura', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  color: #cdf0ea;
+  font-size: 25px;
+  font-style: bold;
+}
+
+.topnav {
+  background-color: #e9dac1;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #4d4d4d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Shadows Into Light', cursive;
+  font-style: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #98ddca;
+  color: white;
+}

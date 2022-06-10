@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.aboutus {
+  background-color: #f9ceee;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Allura', cursive;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+}
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+}
+.content-section {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.image-section {
+  width: 90%;
+}
+.image-section img {
+  width: 99%;
+  height: auto;
+  float: right;
+}
+.content-section .title {
+  text-transform: cursive;
+  font-size: 28px;
+  color: rgb(185, 97, 135);
+}
+.content-section .content h3 {
+  margin-top: 20px;
+  color: #6c567b;
+  font-size: 30px;
+}
+h3 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.topnav {
+  background-color: rgb(197, 127, 157);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(255, 250, 250);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Shadows Into Light', cursive;
+  font-style: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #6c567b;
+  color: white;
+}
